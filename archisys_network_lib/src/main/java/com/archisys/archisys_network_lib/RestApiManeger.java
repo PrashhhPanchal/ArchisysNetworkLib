@@ -17,7 +17,7 @@ import okhttp3.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.jackson.JacksonConverterFactory;
 
-public class RestApiManger {
+public class RestApiManeger {
 
        public static  <T> T get( Class<T> tClass) {
 
