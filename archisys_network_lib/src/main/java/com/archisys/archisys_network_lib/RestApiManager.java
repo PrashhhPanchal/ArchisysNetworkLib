@@ -21,14 +21,14 @@ public class RestApiManager {
 
        public static  <T> T get( Class<T> tClass) {
 
-           final Context context = LibBaseApplication.getCurrentContext();
+            final Context context = LibBaseApplication.getCurrentContext();
             OkHttpClient.Builder builder = new OkHttpClient.Builder();
             builder.readTimeout(30, TimeUnit.SECONDS);
             builder.connectTimeout(30, TimeUnit.SECONDS);
             builder.writeTimeout(30, TimeUnit.SECONDS);
             int cacheSize = 10 * 1024 * 1024; // 10 MiB
-            Cache cache = new Cache(context.getCacheDir(), cacheSize);
-            builder.cache(cache);
+            //Cache cache = new Cache(context.getCacheDir(), cacheSize);
+            //builder.cache(cache);
             Dispatcher dispatcher = new Dispatcher();
             dispatcher.setMaxRequests(100);
             dispatcher.setMaxRequestsPerHost(10);
