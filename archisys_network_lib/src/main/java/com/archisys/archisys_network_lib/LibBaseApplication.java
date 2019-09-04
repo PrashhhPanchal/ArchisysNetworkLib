@@ -5,7 +5,7 @@ import android.content.Context;
 import android.util.Log;
 
 public class LibBaseApplication extends Application {
-    static Context _CurrentContext;
+    public static Context _CurrentContext;
 
 
     public static Context getCurrentContext(){
