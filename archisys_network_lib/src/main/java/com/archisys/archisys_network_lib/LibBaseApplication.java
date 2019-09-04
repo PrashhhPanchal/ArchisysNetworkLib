@@ -14,6 +14,6 @@ public class LibBaseApplication extends Application {
 
     public LibBaseApplication(){
         _CurrentContext = this;
-        Log.i("Lib Base Application", "Lib Base Application Context");
+        Log.i("LibBase Application", "LibBase Application Context");
     }
 }
