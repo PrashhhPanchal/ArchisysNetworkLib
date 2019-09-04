@@ -1,0 +1,6 @@
+
+_squid:S1192"HDefine a constant instead of duplicating this literal "restapi" 3 times.(ûè•
+Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8×³í¹Ï-
+zsquid:S1157"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(¼àòå
+dsquid:S1192"HDefine a constant instead of duplicating this literal "RestAPI" 4 times.(ğûú¹úÿÿÿÿ
+usquid:S00116"]Rename this field "_apiClientCallBack" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úå

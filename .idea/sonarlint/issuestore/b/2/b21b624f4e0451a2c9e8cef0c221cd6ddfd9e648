@@ -1,0 +1,7 @@
+
+Usquid:S14819"2Remove this unused "Authorization" local variable.(Ã¼½øÿÿÿÿ8ñæ‡®Ï-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(¨¦Ãˆ8·ºˆ®Ï-
+fsquid:S11928"HDefine a constant instead of duplicating this literal "RestAPI" 3 times.(Ğø•8†ô‹®Ï-
+usquid:S001179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¼½øÿÿÿÿ8ñæ‡®Ï-
+isquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(ÍèÎª8ÀÙ¢®Ï-
+isquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ú˜ Ô8’²é¹Ï-
