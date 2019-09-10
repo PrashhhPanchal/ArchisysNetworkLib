@@ -8,6 +8,36 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestProject/android-retrofit-test-examples/RetrofitTestExample/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestProject/android-retrofit-test-examples/RetrofitTestExample/app/src/androidTest/java/za/co/riggaroo/retrofittestexample/MainActivityTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestProject/android-retrofit-test-examples/RetrofitTestExample/app/src/androidTest/java/za/co/riggaroo/retrofittestexample/QuoteOfTheDayMockAdapterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestProject/android-retrofit-test-examples/RetrofitTestExample/app/src/androidTest/java/za/co/riggaroo/retrofittestexample/RestServiceTestHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../TestProject/android-retrofit-test-examples/RetrofitTestExample/app/src/main/java/za/co/riggaroo/retrofittestexample/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/build.gradle">
           <value>
             <set />
@@ -18,7 +48,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/API/APICall.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/API/AdvisorServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/API/Api.java">
           <value>
             <set />
           </value>
@@ -63,7 +103,257 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/CommonRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/CreateSubscriptionRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/GetAdvisorRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/GetReportKeywordRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/GetTipRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/HitFlopFilterRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/LoginRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/OTPRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/PostCommentReplyRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/PostCommentRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/PostReviewRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/ReportRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/SignupRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/StaticContentRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/UpdateProfileRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/UpdateSettingsRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIRequestModel/ValidatePromoRequestModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/DeleteCommentResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/FollowUnFollowAdvisorResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/GetCommentByTipResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/GetReportKeywordsResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/LoginResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/OTPVerifyModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/PostCommentReplyResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/PostCommentResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/ReviewListModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/SignUpResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/ValidatePromoResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/AdvertisementModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/AdvisorPerformanceStatesModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/CommentLikeModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/LoginModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/OTPUserModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/PaymentHistoryModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/ProPlanModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/ProfileModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/PromoCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/RatingAndReviewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/SettingsModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/SettingsValueModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/StaticContentModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/SubscribedAdvisorModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/TAAccountDetailModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/TipImageModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/TipItemModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/TipLikeModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/TipModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/TradeDetailModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/TradeModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Provider/DataProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Utils/AppUpdate.java">
           <value>
             <set />
           </value>
@@ -78,12 +368,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Utils/RandomNumberGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Utils/WrapContentHeightViewPager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/adapter/AltExploreAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/adapter/AltWatchlistAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/adapter/ReportTagsAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/adapter/TipHistoryAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/base/BaseActivity.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/base/BaseApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/base/BaseFragment.java">
           <value>
             <set />
           </value>
@@ -193,7 +518,92 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/res/color/color_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/res/drawable/radio_selector.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/res/layout/common_viewpager_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/res/layout/dashboard_filter_bottomsheet.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/res/layout/dashboard_row_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/res/layout/delete_this.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/res/layout/retry_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/res/layout/splashscreen_activity.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/res/layout/tas_plan_activity.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/res/layout/tip_history_row_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/test/java/com/archisys/findmytrade/APITest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/test/java/com/archisys/findmytrade/RandomNumberGeneratorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ArchisysCoreLib/archisyscorelib/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/archisys/archisysnetworklib/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/archisys/archisysnetworklib/APITest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archisys_network_lib/build.gradle">
           <value>
             <set />
           </value>
@@ -203,12 +613,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/ApiClientResponseModel_two.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/Device.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/LibBaseApplication.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/LibPrefs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/RestApiManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/UpdateActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/res/layout/activity_update.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../XpensysAndroidBClone/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../XpensysAndroidBClone/app/src/main/java/archisys/com/xpensys/UI/Splashscreen.java">
           <value>
             <set />
           </value>

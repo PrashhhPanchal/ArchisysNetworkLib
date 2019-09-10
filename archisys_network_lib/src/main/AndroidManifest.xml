@@ -1,11 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.archisys.archisys_network_lib" >
-    <uses-permission android:name="android.permission.INTERNET" />
+    package="com.archisys.archisys_network_lib">
+
+    <application
+        android:name=".LibBaseApplication"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".UpdateActivity"></activity>
+    </application>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <application android:name=".LibBaseApplication"
-        android:supportsRtl="true"
-        android:usesCleartextTraffic="true"/>
-</manifest>
+    <uses-permission android:name="android.permission.INTERNET" />
 
+</manifest>

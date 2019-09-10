@@ -11,8 +11,6 @@ y
 Iapp/src/main/java/com/archisys/archisysnetworklib/AdvertisementModel.java,0/7/074dbdee3d1298cf4def299484a52fed23ffd5f5
 €
 Parchisys_network_lib/src/main/java/com/archisys/archisys_network_lib/Device.java,4/8/485f4c6b2fac1fbd53b27ee6772b48d69a75e1a5
-‡
-Warchisys_network_lib/src/main/java/com/archisys/archisys_network_lib/RestApiManger.java,b/2/b21b624f4e0451a2c9e8cef0c221cd6ddfd9e648
 Œ
 \archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/ApiRequestCallBack.java,a/6/a68094c99923df11826eede6d2bd91fa41c82923
 n
@@ -33,3 +31,11 @@ Capp/src/main/java/com/archisys/archisysnetworklib/MainActivity.java,c/b/cb97f8
 Rarchisys_network_lib/src/main/java/com/archisys/archisys_network_lib/LibPrefs.java,b/5/b530b480b9fc35d6a7a6f89de12f97ffb92fe56f
 Q
 !archisys_network_lib/build.gradle,f/b/fba0c679c7474da5bc975d778d9ae95dcf2a4e97
+y
+Iapp/src/main/java/com/archisys/archisysnetworklib/LibBaseApplication.java,a/4/a4a4c1b5fd7ac4988286251e73143ebdb88a85f0
+ˆ
+Xarchisys_network_lib/src/main/java/com/archisys/archisys_network_lib/RestApiManager.java,1/4/14fe519df0d8004721925ed95f5bb37ffb9b599a
+”
+darchisys_network_lib/src/main/java/com/archisys/archisys_network_lib/ApiClientResponseModel_two.java,e/5/e57b391984537b62210050d949bb9eb5c6513a76
+ˆ
+Xarchisys_network_lib/src/main/java/com/archisys/archisys_network_lib/UpdateActivity.java,8/9/891820ff4368b3b0a88b23ec3a0c6d07989200d1

@@ -23,6 +23,7 @@ public class LibPrefs {
         public static String BaseUrl="";
         public static String getDevice="";
         public static String getAuthorization="";
+        public static String NotificationId = "";
         public static boolean isShowLog=false;
 
         @SuppressWarnings("static-access")

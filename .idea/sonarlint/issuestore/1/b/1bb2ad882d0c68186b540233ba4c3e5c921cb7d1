@@ -1,3 +1,5 @@
 
-}squid:S3008"ZRename this field "_CurrentContext" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Âþ’üÿÿÿÿ8°ÃÄ¹Ï-
-Osquid:S3010",Remove this assignment of "_CurrentContext".(îµñ¥üÿÿÿÿ8°ÃÄ¹Ï-
+}squid:S3008"ZRename this field "_CurrentContext" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÞÁÀäÿÿÿÿÿ8°ÃÄ¹Ï-
+Osquid:S3010",Remove this assignment of "_CurrentContext".(îµñ¥üÿÿÿÿ8°ÃÄ¹Ï-
+Xsquid:S1444"5Make this "public static _CurrentContext" field final(ÞÁÀäÿÿÿÿÿ8í÷ŸÝÏ-
+•"squid:ClassVariableVisibilityCheck"[Make _CurrentContext a static final constant or non-public and provide accessors if needed.(ÞÁÀäÿÿÿÿÿ8í÷ŸÝÏ-

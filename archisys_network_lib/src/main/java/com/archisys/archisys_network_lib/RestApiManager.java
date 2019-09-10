@@ -15,6 +15,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.jackson.JacksonConverterFactory;
 
 public class RestApiManager {
@@ -70,6 +71,7 @@ public class RestApiManager {
             Retrofit retrofit = new Retrofit.Builder()
                     .client(builder.build())
                     .addConverterFactory(JacksonConverterFactory.create(mapper))
+                    .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                     .baseUrl(LibPrefs.BaseUrl)
                     .build();
 
