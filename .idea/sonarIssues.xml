@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../TestProject/FlutterProjects/APIRequestFlutter/vegetos_flutter/lib/UI/DashboardScreen.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../TestProject/android-retrofit-test-examples/RetrofitTestExample/app/build.gradle">
           <value>
             <set />
@@ -99,6 +104,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/API/UserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Listener/IDashboardListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/LocalDatabase/LocalDataBase.java">
           <value>
             <set />
           </value>
@@ -204,6 +219,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/GetReportKeywordsResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Model/APIResponseModel/IsUpdateAvailableResponseModel.java">
           <value>
             <set />
           </value>
@@ -349,6 +369,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/Provider/DataProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/main/java/com/archisys/findmytrade/PushNotification/MyFirebaseMessagingService.java">
           <value>
             <set />
           </value>
@@ -573,6 +598,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/test/java/com/archisys/findmytrade/MockClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../project/FindMyTrade/app/src/test/java/com/archisys/findmytrade/RandomNumberGeneratorTest.java">
           <value>
             <set />
@@ -613,6 +643,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/ApiClientResponseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/ApiClientResponseModel_two.java">
           <value>
             <set />
@@ -633,6 +668,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/RestApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/java/com/archisys/archisys_network_lib/RestApiManager.java">
           <value>
             <set />
@@ -644,6 +684,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/archisys_network_lib/src/main/res/layout/activity_update.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/archisys_network_lib/src/test/java/com/archisys/archisys_network_lib/APITest.java">
           <value>
             <set />
           </value>

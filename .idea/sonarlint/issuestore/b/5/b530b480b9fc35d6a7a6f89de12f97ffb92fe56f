@@ -1,23 +1,26 @@
 
-Ksquid:S1444"-Make this "public static BaseUrl" field final(Š½‘÷8„–®Ï-
-~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÆÁ„êùÿÿÿÿ8Û¦ü­Ï-
-~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áŞ˜Ùøÿÿÿÿ8Û¦ü­Ï-
-"squid:ClassVariableVisibilityCheck"UMake getDevice a static final constant or non-public and provide accessors if needed.(ŒÙ´õøÿÿÿÿ8Û¦ü­Ï-
-psquid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é„©8ó®Ï-
-psquid:S00117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é„©8ó®Ï-
-ssquid:S00100¦"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¾şüÿÿÿÿ8ËÂ‘®Ï-
-psquid:S00117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÓü8ó®Ï-
-qsquid:S00117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é„©8ó®Ï-
-psquid:S3008"RRename this field "BaseUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š½‘÷8„–®Ï-
-–"squid:ClassVariableVisibilityCheck"\Make getAuthorization a static final constant or non-public and provide accessors if needed.(÷¥Ùâıÿÿÿÿ8Û¦ü­Ï-
-Š"squid:ClassVariableVisibilityCheck"UMake isShowLog a static final constant or non-public and provide accessors if needed.(üŞ„«8úá’®Ï-
-~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŒÛÈõøÿÿÿÿ8Û¦ü­Ï-
-Ysquid:S1444"6Make this "public static getAuthorization" field final(÷¥Ùâıÿÿÿÿ8Û¦ü­Ï-
-Rsquid:S1444"/Make this "public static getDevice" field final(ŒÙ´õøÿÿÿÿ8Û¦ü­Ï-
+psquid:S00117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é„©8ó®Ï-
+vsquid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¾şüÿÿÿÿ8ËÂ‘®Ï-
+ssquid:S00100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¾şüÿÿÿÿ8ËÂ‘®Ï-
 ˆ"squid:ClassVariableVisibilityCheck"SMake BaseUrl a static final constant or non-public and provide accessors if needed.(Š½‘÷8„–®Ï-
+qsquid:S00117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é„©8ó®Ï-
+psquid:S00117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é„©8ó®Ï-
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÆÁ„êùÿÿÿÿ8Û¦ü­Ï-
+Š"squid:ClassVariableVisibilityCheck"UMake isShowLog a static final constant or non-public and provide accessors if needed.(üŞ„«8úá’®Ï-
+Msquid:S1444"/Make this "public static isShowLog" field final(üŞ„«8úá’®Ï-
+Ysquid:S1444"6Make this "public static getAuthorization" field final(÷¥Ùâıÿÿÿÿ8Û¦ü­Ï-
 ]squid:S1118":Add a private constructor to hide the implicit public one.(°úÌäùÿÿÿÿ8Û¦ü­Ï-
-psquid:S00117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é„©8ó®Ï-
 ~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ö¼şöşÿÿÿÿ8Û¦ü­Ï-
-Msquid:S1444"/Make this "public static isShowLog" field final(üŞ„«8úá’®Ï-
-vsquid:S00117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¾şüÿÿÿÿ8ËÂ‘®Ï-
-psquid:S001179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é„©8ó®Ï-
+psquid:S3008"RRename this field "BaseUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š½‘÷8„–®Ï-
+psquid:S00117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÓü8ó®Ï-
+Ksquid:S1444"-Make this "public static BaseUrl" field final(Š½‘÷8„–®Ï-
+–"squid:ClassVariableVisibilityCheck"\Make getAuthorization a static final constant or non-public and provide accessors if needed.(÷¥Ùâıÿÿÿÿ8Û¦ü­Ï-
+"squid:ClassVariableVisibilityCheck"UMake getDevice a static final constant or non-public and provide accessors if needed.(ŒÙ´õøÿÿÿÿ8Û¦ü­Ï-
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŒÛÈõøÿÿÿÿ8Û¦ü­Ï-
+Rsquid:S1444"/Make this "public static getDevice" field final(ŒÙ´õøÿÿÿÿ8Û¦ü­Ï-
+psquid:S00117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é„©8ó®Ï-
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áŞ˜Ùøÿÿÿÿ8Û¦ü­Ï-
+psquid:S00117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é„©8ó®Ï-
+Wsquid:S1444"4Make this "public static NotificationId" field final(÷¢ıüÿÿÿÿÿ8şÜØÑ-
+”"squid:ClassVariableVisibilityCheck"ZMake NotificationId a static final constant or non-public and provide accessors if needed.(÷¢ıüÿÿÿÿÿ8şÜØÑ-
+|squid:S3008"YRename this field "NotificationId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¢ıüÿÿÿÿÿ8şÜØÑ-
