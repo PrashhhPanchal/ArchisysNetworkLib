@@ -1,6 +1,12 @@
 
 usquid:S00116"]Rename this field "_apiClientCallBack" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úžåž
+<<<<<<< HEAD
 _squid:S1192"HDefine a constant instead of duplicating this literal "restapi" 3 times.(ûè•
 dsquid:S1192"HDefine a constant instead of duplicating this literal "RestAPI" 4 times.(ðûú¹úÿÿÿÿ
 zsquid:S1157"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(¼àòå
 Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8×³í¹Ï-
+=======
+zsquid:S1157"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(¼àòå
+_squid:S1192"HDefine a constant instead of duplicating this literal "restapi" 3 times.(ûè•
+dsquid:S1192"HDefine a constant instead of duplicating this literal "RestAPI" 4 times.(ðûú¹úÿÿÿÿ
+>>>>>>> a4d8aa6a763cfcf20b6f8deffeab5c74efe5976e

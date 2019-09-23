@@ -53,7 +53,7 @@ public class ApiRequestCallBack<T> implements Callback<ApiClientResponseModel<T>
         ApiClientResponseModel<T> apiClientResponseModel=new ApiClientResponseModel<>();
         if(response.code()==200){
             apiClientResponseModel=response.body();
-        }else{
+        } else{
             apiClientResponseModel.setStatusCode(response.code());
             apiClientResponseModel.setStatusMessage(response.message());
         }

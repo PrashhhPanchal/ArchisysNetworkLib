@@ -30,7 +30,7 @@ public class Device {
                 .setOs("Android")
                 .setOsVersion(android.os.Build.VERSION.RELEASE)
                 .setPlatform("Mobile")
-                .setNotificationId("");
+                .setNotificationId(LibPrefs.NotificationId);
 
         return _device;
     }
@@ -42,7 +42,7 @@ public class Device {
             .setAppVersion(BuildConfig.VERSION_NAME)
             .setManufacturer(Build.MANUFACTURER)
             .setModel(Build.MODEL)
-            .setNotificationId("")
+            .setNotificationId(LibPrefs.NotificationId)
             .setOs("Android")
             .setOsVersion(android.os.Build.VERSION.RELEASE)
             .setPlatform("Mobile")

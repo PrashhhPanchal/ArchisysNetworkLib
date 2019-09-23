@@ -1,11 +1,10 @@
-package com.archisys.archisys_network_lib;
+package com.archisys.archisysnetworklib;
 
 import android.app.Application;
 import android.content.Context;
-import android.util.Log;
 
 public class LibBaseApplication extends Application {
-    public static Context _CurrentContext;
+    static Context _CurrentContext;
 
 
     public static Context getCurrentContext(){
@@ -14,6 +13,5 @@ public class LibBaseApplication extends Application {
 
     public LibBaseApplication(){
         _CurrentContext = this;
-        Log.i("LibBase Application", "LibBase Application Context");
     }
 }

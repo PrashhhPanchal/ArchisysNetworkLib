@@ -83,11 +83,13 @@ public class ApiClientResponseModel<T> {
 
     public ApiClientResponseModel<T> Process(retrofit2.Response<ApiClientResponseModel<T>> response){
 
-        if(response.code()==200){
+        if(response.code()==200)
+        {
             this.setStatusMessage(response.body().getStatusMessage())
                     .setStatusCode(response.body().getStatusCode())
             .setData(response.body());
-        }else{
+        }
+        else{
             this.setStatusCode(response.code());
             this.setStatusMessage(response.message());
         }
