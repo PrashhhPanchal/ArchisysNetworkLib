@@ -33,3 +33,5 @@ Capp/src/main/java/com/archisys/archisysnetworklib/MainActivity.java,c/b/cb97f8
 Rarchisys_network_lib/src/main/java/com/archisys/archisys_network_lib/LibPrefs.java,b/5/b530b480b9fc35d6a7a6f89de12f97ffb92fe56f
 Q
 !archisys_network_lib/build.gradle,f/b/fba0c679c7474da5bc975d778d9ae95dcf2a4e97
+L
+.idea/codeStyles/Project.xml,6/e/6ecd6000a7b6f4a2884412ff19f74193ed089648
