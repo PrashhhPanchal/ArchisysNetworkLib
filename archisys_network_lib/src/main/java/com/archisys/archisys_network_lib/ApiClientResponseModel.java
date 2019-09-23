@@ -88,7 +88,6 @@ public class ApiClientResponseModel<T> {
             this.setStatusMessage(response.body().getStatusMessage())
                     .setStatusCode(response.body().getStatusCode())
             .setData(response.body());
-            new UpdateActivity().checkImmediateUpdate();
         }
         else if (response.code() == 426)
         {
