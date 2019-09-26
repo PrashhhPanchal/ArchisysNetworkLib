@@ -73,7 +73,7 @@ public class RestApiManager {
                     .client(builder.build())
                     .addConverterFactory(JacksonConverterFactory.create(mapper))
                     .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
-                    .baseUrl(LibPrefs.BaseUrl)
+                    .baseUrl(model.getBaseUrl())
                     .build();
 
 
