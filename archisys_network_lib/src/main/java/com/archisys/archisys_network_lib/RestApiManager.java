@@ -36,7 +36,7 @@ public class RestApiManager {
             builder.dispatcher(dispatcher);
 
 
-            LibPrefs.getDevice=Device.getInstance(context).toString();
+//            LibPrefs.getDevice=Device.getInstance(context).toString();
 //            if (LibPrefs.hasPrefs(context, LibPrefs.Authorization) && !LibPrefs.getValue(context, LibPrefs.Authorization, "").isEmpty()) {
 //                LibPrefs.getAuthorization=LibPrefs.getValue(context,LibPrefs.Authorization,"");
 //            }
