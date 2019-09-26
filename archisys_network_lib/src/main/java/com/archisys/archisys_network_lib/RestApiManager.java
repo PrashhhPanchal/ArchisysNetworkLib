@@ -8,7 +8,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import okhttp3.Cache;
 import okhttp3.Dispatcher;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
@@ -20,9 +19,12 @@ import retrofit2.converter.jackson.JacksonConverterFactory;
 
 public class RestApiManager {
 
-       public static  <T> T get( Class<T> tClass) {
+        public static void isShowLog(boolean isShow){
+            LibPrefs.isShowLog=isShow;
+        }
 
-            final Context context = LibBaseApplication.getCurrentContext();
+       public static  <T> T get( Class<T> tClass,RestApiManagerModel model) {
+
             OkHttpClient.Builder builder = new OkHttpClient.Builder();
             builder.readTimeout(30, TimeUnit.SECONDS);
             builder.connectTimeout(30, TimeUnit.SECONDS);
@@ -36,7 +38,7 @@ public class RestApiManager {
             builder.dispatcher(dispatcher);
 
 
-//            LibPrefs.getDevice=Device.getInstance(context).toString();
+//           LibPrefs.getDevice= userDevice.toString();
 //            if (LibPrefs.hasPrefs(context, LibPrefs.Authorization) && !LibPrefs.getValue(context, LibPrefs.Authorization, "").isEmpty()) {
 //                LibPrefs.getAuthorization=LibPrefs.getValue(context,LibPrefs.Authorization,"");
 //            }
@@ -52,14 +54,13 @@ public class RestApiManager {
 
                     Request.Builder builder = chain.request().newBuilder()
                             .addHeader("Content-type", "application/json")
-                            .addHeader("Device",LibPrefs.getDevice );
+                            .addHeader("Device",model.getDevice() );
 
-                    LibPrefs.LogInfo("RestAPI","device : "+LibPrefs.getDevice);
+                    LibPrefs.LogInfo("RestAPI","device : "+model.getDevice());
                     String Authorization="";
-                    LibPrefs.LogInfo("RestAPI","CONTEXT : "+context.getClass().getSimpleName());
-                    if (!LibPrefs.getAuthorization.isEmpty()) {
-                        builder.addHeader("Authorization", LibPrefs.getAuthorization);
-                        LibPrefs.LogInfo("RestAPI","Authorization : "+LibPrefs.getAuthorization);
+                    if (!model.getAuthorization().isEmpty()) {
+                        builder.addHeader("Authorization", model.getAuthorization());
+                        LibPrefs.LogInfo("RestAPI","Authorization : "+model.getAuthorization());
                     }
                     Request request = builder.build();
                     return chain.proceed(request);

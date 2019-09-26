@@ -13,7 +13,7 @@ public class Device {
 
     static String _deviceString ;
     static  Device _device;
-    public  static  Device getInstance(Context context){
+    public  static  Device getInstance(Context context, int versionNumber){
         String uuid="";
         if(LibPrefs.getValue(context,LibPrefs.UUID,null)!=null && LibPrefs.hasPrefs(context,LibPrefs.UUID) && !LibPrefs.getValue(context,LibPrefs.UUID,"").isEmpty()){
             uuid=LibPrefs.getValue(context,LibPrefs.UUID,"");

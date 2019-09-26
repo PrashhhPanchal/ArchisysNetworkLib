@@ -3,6 +3,8 @@ package com.archisys.archisysnetworklib;
 import android.app.Application;
 import android.content.Context;
 
+import com.archisys.archisys_network_lib.RestApiManagerModel;
+
 public class LibBaseApplication extends Application {
     static Context _CurrentContext;
 
@@ -14,4 +16,5 @@ public class LibBaseApplication extends Application {
     public LibBaseApplication(){
         _CurrentContext = this;
     }
+
 }
