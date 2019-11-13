@@ -43,7 +43,10 @@ public class ApiRequestCallBack<T> implements Callback<ApiClientResponseModel<T>
         LibPrefs.LogInfo("RestAPI",call.request().url().toString());
         LibPrefs.LogInfo("restapi","failed:"+t.fillInStackTrace());
         if(_apiClientCallBack!=null){
-            _apiClientCallBack.Response(new ApiClientResponseModel(t));
+            //for set status message of error if timeout or other error.
+            ApiClientResponseModel apiClientResponseModel=new ApiClientResponseModel(t);
+            apiClientResponseModel.setStatusMessage(t.getLocalizedMessage());
+            _apiClientCallBack.Response(apiClientResponseModel);
         }
 
 
