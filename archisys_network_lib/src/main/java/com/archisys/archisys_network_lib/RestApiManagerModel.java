@@ -4,17 +4,27 @@ public class RestApiManagerModel {
     private String baseUrl;
     private String device;
     private String authorization;
+    private boolean useHTTPS;
 
 
     public RestApiManagerModel(){
         this.baseUrl="";
         this.device="";
         this.authorization="";
+        this.useHTTPS=false;
     }
     public RestApiManagerModel(String baseUrl,String device,String authorization){
         this.baseUrl=baseUrl;
         this.device=device;
         this.authorization=authorization;
+        this.useHTTPS=false;
+    }
+
+    public RestApiManagerModel(String baseUrl,String device,String authorization,boolean useHTTPS){
+        this.baseUrl=baseUrl;
+        this.device=device;
+        this.authorization=authorization;
+        this.useHTTPS=useHTTPS;
     }
     public String getBaseUrl() {
         return baseUrl;
@@ -38,5 +48,14 @@ public class RestApiManagerModel {
 
     public void setAuthorization(String authorization) {
         this.authorization = authorization;
+    }
+
+
+    public boolean isUseHTTPS() {
+        return useHTTPS;
+    }
+
+    public void setUseHTTPS(boolean useHTTPS) {
+        this.useHTTPS = useHTTPS;
     }
 }

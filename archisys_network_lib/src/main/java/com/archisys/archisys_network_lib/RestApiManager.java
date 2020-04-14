@@ -36,7 +36,9 @@ public class RestApiManager {
             dispatcher.setMaxRequests(100);
             dispatcher.setMaxRequestsPerHost(10);
             builder.dispatcher(dispatcher);
-
+            if(model.isUseHTTPS()){
+                builder.sslSocketFactory(SslUtils.getSslSocketFactory(), SslUtils.getTrustManager());
+            }
 
 //           LibPrefs.getDevice= userDevice.toString();
 //            if (LibPrefs.hasPrefs(context, LibPrefs.Authorization) && !LibPrefs.getValue(context, LibPrefs.Authorization, "").isEmpty()) {
