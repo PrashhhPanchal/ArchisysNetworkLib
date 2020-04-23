@@ -31,7 +31,7 @@ public class RestApiManager {
             builder.writeTimeout(30, TimeUnit.SECONDS);
             int cacheSize = 10 * 1024 * 1024; // 10 MiB
             //Cache cache = new Cache(context.getCacheDir(), cacheSize);
-            //builder.cache(cache);
+            builder.cache(null);
             Dispatcher dispatcher = new Dispatcher();
             dispatcher.setMaxRequests(100);
             dispatcher.setMaxRequestsPerHost(10);
