@@ -5,9 +5,12 @@ import android.content.Context;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import okhttp3.Cache;
+import okhttp3.CacheControl;
 import okhttp3.Dispatcher;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
@@ -29,9 +32,15 @@ public class RestApiManager {
             builder.readTimeout(30, TimeUnit.SECONDS);
             builder.connectTimeout(30, TimeUnit.SECONDS);
             builder.writeTimeout(30, TimeUnit.SECONDS);
-            int cacheSize = 10 * 1024 * 1024; // 10 MiB
-            //Cache cache = new Cache(context.getCacheDir(), cacheSize);
-            builder.cache(null);
+//            int cacheSize = 10 * 1024 * 1024; // 10 MiB
+//            Cache cache = new Cache(context.getCacheDir(), cacheSize);
+//            builder.cache(null);
+           Cache cache = null;
+           if(model.getContext()!=null) {
+               File httpCacheDirectory = new File(model.getContext().getCacheDir(), "http-cache");
+               int cacheSize = 10 * 1024 * 1024; // 10 MiB
+                cache = new Cache(httpCacheDirectory, cacheSize);
+           }
             Dispatcher dispatcher = new Dispatcher();
             dispatcher.setMaxRequests(100);
             dispatcher.setMaxRequestsPerHost(10);
@@ -46,8 +55,9 @@ public class RestApiManager {
 //            }
 
 
-
-
+            if(cache!=null) {
+                builder.addInterceptor(new CacheInterceptor());
+            }
             //added fix headers
             builder.addInterceptor(new Interceptor() {
                 @Override
@@ -82,7 +92,22 @@ public class RestApiManager {
             return retrofit.create(tClass);
         }
 
+    public static class CacheInterceptor implements Interceptor {
+        @Override
+        public Response intercept(Chain chain) throws IOException {
+            Response response = chain.proceed(chain.request());
 
+            CacheControl cacheControl = new CacheControl.Builder()
+                    .maxAge(5, TimeUnit.MINUTES) // 5 minutes cache
+                    .build();
+
+            return response.newBuilder()
+                    .removeHeader("Pragma")
+                    .removeHeader("Cache-Control")
+                    .header("Cache-Control", cacheControl.toString())
+                    .build();
+        }
+    }
 
 //        static RestApi restApi = null;
 //        public static RestApi getAPI(){

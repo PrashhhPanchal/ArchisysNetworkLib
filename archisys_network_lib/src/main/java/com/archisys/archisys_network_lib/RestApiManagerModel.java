@@ -1,6 +1,9 @@
 package com.archisys.archisys_network_lib;
 
+import android.content.Context;
+
 public class RestApiManagerModel {
+    private Context context;
     private String baseUrl;
     private String device;
     private String authorization;
@@ -20,12 +23,22 @@ public class RestApiManagerModel {
         this.useHTTPS=false;
     }
 
-    public RestApiManagerModel(String baseUrl,String device,String authorization,boolean useHTTPS){
+    public RestApiManagerModel(Context context,String baseUrl,String device,String authorization,boolean useHTTPS){
+        this.context=context;
         this.baseUrl=baseUrl;
         this.device=device;
         this.authorization=authorization;
         this.useHTTPS=useHTTPS;
     }
+
+    public Context getContext() {
+        return context;
+    }
+
+    public void setContext(Context context) {
+        this.context = context;
+    }
+
     public String getBaseUrl() {
         return baseUrl;
     }
