@@ -56,7 +56,8 @@ public class RestApiManager {
 
 
             if(cache!=null) {
-                builder.addInterceptor(new CacheInterceptor());
+                builder.addNetworkInterceptor(new CacheInterceptor());
+                builder.cache(cache);
             }
             //added fix headers
             builder.addInterceptor(new Interceptor() {
