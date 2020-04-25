@@ -33,14 +33,14 @@ public class RestApiManager {
             builder.connectTimeout(30, TimeUnit.SECONDS);
             builder.writeTimeout(30, TimeUnit.SECONDS);
 //            int cacheSize = 10 * 1024 * 1024; // 10 MiB
-//            Cache cache = new Cache(context.getCacheDir(), cacheSize);
-//            builder.cache(null);
-           Cache cache = null;
-           if(model.getContext()!=null) {
-               File httpCacheDirectory = new File(model.getContext().getCacheDir(), "http-cache");
-               int cacheSize = 10 * 1024 * 1024; // 10 MiB
-                cache = new Cache(httpCacheDirectory, cacheSize);
-           }
+//           Cache cache=null;
+//           if(model.getContext()!=null) {
+//               File httpCacheDirectory = new File(model.getContext().getCacheDir(), "http-cache");
+//                cache = new Cache(httpCacheDirectory, cacheSize);
+//           builder.addNetworkInterceptor(new CacheInterceptor());
+//           builder.cache(cache);
+//           }
+
             Dispatcher dispatcher = new Dispatcher();
             dispatcher.setMaxRequests(100);
             dispatcher.setMaxRequestsPerHost(10);
@@ -55,10 +55,7 @@ public class RestApiManager {
 //            }
 
 
-            if(cache!=null) {
-                builder.addNetworkInterceptor(new CacheInterceptor());
-                builder.cache(cache);
-            }
+
             //added fix headers
             builder.addInterceptor(new Interceptor() {
                 @Override
