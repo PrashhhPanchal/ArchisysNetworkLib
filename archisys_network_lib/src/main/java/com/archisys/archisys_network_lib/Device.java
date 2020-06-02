@@ -159,15 +159,13 @@ public class Device {
 
     @Override
     public String toString() {
-        if(_deviceString == null || _deviceString.isEmpty()){
-            try{
-                ObjectMapper mapper = new ObjectMapper();
-                _deviceString = Base64.encodeToString(mapper.writeValueAsString(this).getBytes("UTF-8"), Base64.NO_WRAP);
+        try{
+            ObjectMapper mapper = new ObjectMapper();
+            _deviceString = Base64.encodeToString(mapper.writeValueAsString(this).getBytes("UTF-8"), Base64.NO_WRAP);
 
-            }
-            catch(Exception ex){
-                ex.printStackTrace();
-            }
+        }
+        catch(Exception ex){
+            ex.printStackTrace();
         }
         return  _deviceString;
     }
